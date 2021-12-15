@@ -11,6 +11,7 @@ New_Age=[]
 for i in range(len(Age)):
     if BMI[i] <=30:
         New_Age.append(Age[i])
+
 plt.xlabel("Age")
 plt.ylabel("Count")
 plt.hist(New_Age)
